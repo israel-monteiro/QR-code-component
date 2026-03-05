@@ -35,17 +35,20 @@ main {
 }
 
 .card-qr h1 {
-    font-size: 22px;
-    font-weight: 700;
     color: var(--slate-900, #1F314F);
     text-align: center;
-    margin: 24px 0 13px 0;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 24px 0 16px 0;
     padding: 0 16px;
 }
 
 .card-qr p {
     color: var(--slate-500, #68778D);
     text-align: center;
+    font-style: normal;
     font-size: 15px;
     font-weight: 400;
     line-height: 140%;
