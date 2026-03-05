@@ -25,6 +25,7 @@ main {
     padding: 16px 16px 40px 16px;
     background-color: var(--White);
     border-radius: 20px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
 
 }
 
@@ -38,7 +39,7 @@ main {
     font-weight: 700;
     color: var(--slate-900, #1F314F);
     text-align: center;
-    margin: 24px 0 16px 0;
+    margin: 24px 0 13px 0;
     padding: 0 16px;
 }
 
