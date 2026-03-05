@@ -5,7 +5,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
     background-color: var(--slate-300);
+
     font-family: "Outfit", sans-serif;
 }
 
@@ -26,26 +28,33 @@ main {
     background-color: var(--White);
     border-radius: 20px;
     box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+    gap: 24px;
 
 }
 
 .card-qr img {
+    display: block;
     width: 100%;
     border-radius: 10px;
 }
 
-.card-qr h1 {
+.card-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    gap: 16px;
+}
+
+.card-info h1 {
     color: var(--slate-900, #1F314F);
     text-align: center;
     font-style: normal;
     font-size: 22px;
     font-weight: 700;
     line-height: 120%;
-    margin: 24px 0 16px 0;
-    padding: 0 16px;
 }
 
-.card-qr p {
+.card-info p {
     color: var(--slate-500, #68778D);
     text-align: center;
     font-style: normal;
@@ -53,5 +62,4 @@ main {
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0.2px;
-    padding: 0 16px;
 }
